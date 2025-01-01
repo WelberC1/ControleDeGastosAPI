@@ -166,3 +166,4 @@ C:\Users\oximl\source\repos\ControleDeGastosAPI\ControleDeGastosAPI\obj\Debug\ne
 C:\Users\oximl\source\repos\ControleDeGastosAPI\ControleDeGastosAPI\obj\Debug\net8.0\ControleDeGastosAPI.pdb
 C:\Users\oximl\source\repos\ControleDeGastosAPI\ControleDeGastosAPI\obj\Debug\net8.0\ControleDeGastosAPI.genruntimeconfig.cache
 C:\Users\oximl\source\repos\ControleDeGastosAPI\ControleDeGastosAPI\obj\Debug\net8.0\ref\ControleDeGastosAPI.dll
+C:\Users\oximl\source\repos\ControleDeGastosAPI\ControleDeGastosAPI\obj\Debug\net8.0\ControleDeGastosAPI.sourcelink.json
