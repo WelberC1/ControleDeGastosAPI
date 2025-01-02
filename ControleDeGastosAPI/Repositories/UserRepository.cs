@@ -39,20 +39,30 @@ namespace ControleDeGastosAPI.Repositories
 
         public async Task<User> AuthenticateAsync(string email, string senha)
         {
-            var user = await _context.Users.FirstOrDefaultAsync(u => u.Email == email);
-
-            if (user != null)
+            try
             {
+                var user = await _context.Users.FirstOrDefaultAsync(u => u.Email == email);
+
+                if (user == null)
+                {
+                    return null;
+                }
+
                 var hashedPassword = PasswordHasher.HashPassword(senha);
+
                 if (user.Password == hashedPassword)
                 {
                     return user;
                 }
+
+                return null;
             }
-
-            return null;
+            catch (Exception ex)
+            {
+                return null;
+            }
         }
-
+        
         public async Task<User> GetAsyncByEmail(string email)
         {
             try

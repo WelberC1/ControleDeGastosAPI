@@ -12,6 +12,7 @@ namespace ControleDeGastosAPI
         {
             var builder = WebApplication.CreateBuilder(args);
 
+            builder.Services.AddRazorPages();
             builder.Services.AddScoped<IUserRepository, UserRepository>();
             builder.Services.AddScoped<ITransactionRepository, TransactionRepository>();
 
@@ -26,6 +27,7 @@ namespace ControleDeGastosAPI
             builder.Services.AddSwaggerGen();
 
             var app = builder.Build();
+            app.UseStaticFiles();
 
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
@@ -40,7 +42,7 @@ namespace ControleDeGastosAPI
 
 
             app.MapControllers();
-
+            app.MapRazorPages();
             app.Run();
         }
     }

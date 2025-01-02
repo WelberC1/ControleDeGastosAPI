@@ -20,8 +20,16 @@ build_property.RootNamespace = ControleDeGastosAPI
 build_property.ProjectDir = C:\Users\oximl\source\repos\ControleDeGastosAPI\ControleDeGastosAPI\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
-build_property.RazorLangVersion = 8.0
+build_property.RazorLangVersion = 5.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = C:\Users\oximl\source\repos\ControleDeGastosAPI\ControleDeGastosAPI
 build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/oximl/source/repos/ControleDeGastosAPI/ControleDeGastosAPI/Pages/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/oximl/source/repos/ControleDeGastosAPI/ControleDeGastosAPI/Pages/Pages/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 

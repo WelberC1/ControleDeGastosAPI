@@ -51,7 +51,7 @@ namespace ControleDeGastosAPI.Repositories
                 throw new Exception("Ocorreu um erro inesperado ao criar a transação. Tente novamente mais tarde.");
             }
         }
-
+        //soft delete
         public async Task<bool> DeleteAsync(string UUID)
         {
             try
@@ -62,7 +62,7 @@ namespace ControleDeGastosAPI.Repositories
                 if (transaction == null)
                     return false;
 
-                _dbContext.Transactions.Remove(transaction);
+                transaction.IsVisible = false;
                 await _dbContext.SaveChangesAsync();
                 return true;
             }
@@ -83,7 +83,7 @@ namespace ControleDeGastosAPI.Repositories
             try
             {
                 return await _dbContext.Transactions
-                                       .Where(t => t.UserUUID == userUUID)
+                                       .Where(t => t.UserUUID == userUUID && t.IsVisible)
                                        .ToListAsync();
             }
             catch (Exception ex)
@@ -155,7 +155,6 @@ namespace ControleDeGastosAPI.Repositories
                 existingTransaction.Date = transaction.Date;
                 existingTransaction.TypeTransaction = transaction.TypeTransaction;
                 existingTransaction.TransactionCategory = transaction.TransactionCategory;
-                existingTransaction.IsVisible = transaction.IsVisible;
 
                 await _dbContext.SaveChangesAsync();
                 return existingTransaction;

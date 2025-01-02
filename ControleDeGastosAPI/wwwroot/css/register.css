@@ -1,0 +1,20 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2E073F;
+}
+
+form {
+    margin-top: 30px;
+}
+
+.btn {
+    margin-top: 10px;
+    background-color: #7A1CAC;
+    color: white;
+    border-radius: 8px, 3px, 0px;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #AD49E1;
+}

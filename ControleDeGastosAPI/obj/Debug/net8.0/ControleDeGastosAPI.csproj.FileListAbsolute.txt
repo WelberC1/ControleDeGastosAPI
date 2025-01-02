@@ -1,5 +1,6 @@
 C:\Users\oximl\source\repos\ControleDeGastosAPI\ControleDeGastosAPI\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\oximl\source\repos\ControleDeGastosAPI\ControleDeGastosAPI\bin\Debug\net8.0\appsettings.json
+C:\Users\oximl\source\repos\ControleDeGastosAPI\ControleDeGastosAPI\bin\Debug\net8.0\ControleDeGastosAPI.staticwebassets.runtime.json
 C:\Users\oximl\source\repos\ControleDeGastosAPI\ControleDeGastosAPI\bin\Debug\net8.0\ControleDeGastosAPI.exe
 C:\Users\oximl\source\repos\ControleDeGastosAPI\ControleDeGastosAPI\bin\Debug\net8.0\ControleDeGastosAPI.deps.json
 C:\Users\oximl\source\repos\ControleDeGastosAPI\ControleDeGastosAPI\bin\Debug\net8.0\ControleDeGastosAPI.runtimeconfig.json
@@ -8,6 +9,7 @@ C:\Users\oximl\source\repos\ControleDeGastosAPI\ControleDeGastosAPI\bin\Debug\ne
 C:\Users\oximl\source\repos\ControleDeGastosAPI\ControleDeGastosAPI\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\oximl\source\repos\ControleDeGastosAPI\ControleDeGastosAPI\bin\Debug\net8.0\Azure.Identity.dll
 C:\Users\oximl\source\repos\ControleDeGastosAPI\ControleDeGastosAPI\bin\Debug\net8.0\Humanizer.dll
+C:\Users\oximl\source\repos\ControleDeGastosAPI\ControleDeGastosAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Components.WebAssembly.dll
 C:\Users\oximl\source\repos\ControleDeGastosAPI\ControleDeGastosAPI\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\oximl\source\repos\ControleDeGastosAPI\ControleDeGastosAPI\bin\Debug\net8.0\Microsoft.Build.Locator.dll
 C:\Users\oximl\source\repos\ControleDeGastosAPI\ControleDeGastosAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
@@ -40,6 +42,7 @@ C:\Users\oximl\source\repos\ControleDeGastosAPI\ControleDeGastosAPI\bin\Debug\ne
 C:\Users\oximl\source\repos\ControleDeGastosAPI\ControleDeGastosAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
 C:\Users\oximl\source\repos\ControleDeGastosAPI\ControleDeGastosAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\oximl\source\repos\ControleDeGastosAPI\ControleDeGastosAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\oximl\source\repos\ControleDeGastosAPI\ControleDeGastosAPI\bin\Debug\net8.0\Microsoft.JSInterop.WebAssembly.dll
 C:\Users\oximl\source\repos\ControleDeGastosAPI\ControleDeGastosAPI\bin\Debug\net8.0\Microsoft.OpenApi.dll
 C:\Users\oximl\source\repos\ControleDeGastosAPI\ControleDeGastosAPI\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
 C:\Users\oximl\source\repos\ControleDeGastosAPI\ControleDeGastosAPI\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
@@ -152,6 +155,9 @@ C:\Users\oximl\source\repos\ControleDeGastosAPI\ControleDeGastosAPI\obj\Debug\ne
 C:\Users\oximl\source\repos\ControleDeGastosAPI\ControleDeGastosAPI\obj\Debug\net8.0\ControleDeGastosAPI.csproj.CoreCompileInputs.cache
 C:\Users\oximl\source\repos\ControleDeGastosAPI\ControleDeGastosAPI\obj\Debug\net8.0\ControleDeGastosAPI.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\oximl\source\repos\ControleDeGastosAPI\ControleDeGastosAPI\obj\Debug\net8.0\ControleDeGastosAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\oximl\source\repos\ControleDeGastosAPI\ControleDeGastosAPI\obj\Debug\net8.0\ControleDeGastosAPI.RazorAssemblyInfo.cache
+C:\Users\oximl\source\repos\ControleDeGastosAPI\ControleDeGastosAPI\obj\Debug\net8.0\ControleDeGastosAPI.RazorAssemblyInfo.cs
+C:\Users\oximl\source\repos\ControleDeGastosAPI\ControleDeGastosAPI\obj\Debug\net8.0\ControleDeGastosAPI.sourcelink.json
 C:\Users\oximl\source\repos\ControleDeGastosAPI\ControleDeGastosAPI\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\oximl\source\repos\ControleDeGastosAPI\ControleDeGastosAPI\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\oximl\source\repos\ControleDeGastosAPI\ControleDeGastosAPI\obj\Debug\net8.0\staticwebassets\msbuild.ControleDeGastosAPI.Microsoft.AspNetCore.StaticWebAssets.props
@@ -166,4 +172,3 @@ C:\Users\oximl\source\repos\ControleDeGastosAPI\ControleDeGastosAPI\obj\Debug\ne
 C:\Users\oximl\source\repos\ControleDeGastosAPI\ControleDeGastosAPI\obj\Debug\net8.0\ControleDeGastosAPI.pdb
 C:\Users\oximl\source\repos\ControleDeGastosAPI\ControleDeGastosAPI\obj\Debug\net8.0\ControleDeGastosAPI.genruntimeconfig.cache
 C:\Users\oximl\source\repos\ControleDeGastosAPI\ControleDeGastosAPI\obj\Debug\net8.0\ref\ControleDeGastosAPI.dll
-C:\Users\oximl\source\repos\ControleDeGastosAPI\ControleDeGastosAPI\obj\Debug\net8.0\ControleDeGastosAPI.sourcelink.json

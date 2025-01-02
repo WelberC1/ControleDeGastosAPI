@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\oximl\\source\\repos\\ControleDeGastosAPI\\ControleDeGastosAPI\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
+      "Id": "C:\\Users\\oximl\\source\\repos\\ControleDeGastosAPI\\ControleDeGastosAPI\\wwwroot\\css\\register.css",
+      "PackagePath": "staticwebassets\\css\\register.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ControleDeGastosAPI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ControleDeGastosAPI.props",
+      "PackagePath": "build\\ControleDeGastosAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ControleDeGastosAPI.props",
+      "PackagePath": "buildMultiTargeting\\ControleDeGastosAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ControleDeGastosAPI.props",
+      "PackagePath": "buildTransitive\\ControleDeGastosAPI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,11 +1,58 @@
 {
   "Version": 1,
-  "Hash": "WtDThuzqa3oRkyiEd9rQ7rzfYHHssOqwMbqAdYqiWVw=",
+  "Hash": "r4uJwHWd//ql48KN5/QLKrvImdKgkc1i26APxCu5tjk=",
   "Source": "ControleDeGastosAPI",
   "BasePath": "_content/ControleDeGastosAPI",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "ControleDeGastosAPI\\wwwroot",
+      "Source": "ControleDeGastosAPI",
+      "ContentRoot": "C:\\Users\\oximl\\source\\repos\\ControleDeGastosAPI\\ControleDeGastosAPI\\wwwroot\\",
+      "BasePath": "_content/ControleDeGastosAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\oximl\\source\\repos\\ControleDeGastosAPI\\ControleDeGastosAPI\\wwwroot\\css\\login.css",
+      "SourceId": "ControleDeGastosAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\oximl\\source\\repos\\ControleDeGastosAPI\\ControleDeGastosAPI\\wwwroot\\",
+      "BasePath": "_content/ControleDeGastosAPI",
+      "RelativePath": "css/login.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\login.css"
+    },
+    {
+      "Identity": "C:\\Users\\oximl\\source\\repos\\ControleDeGastosAPI\\ControleDeGastosAPI\\wwwroot\\css\\register.css",
+      "SourceId": "ControleDeGastosAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\oximl\\source\\repos\\ControleDeGastosAPI\\ControleDeGastosAPI\\wwwroot\\",
+      "BasePath": "_content/ControleDeGastosAPI",
+      "RelativePath": "css/register.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\register.css"
+    }
+  ]
 }

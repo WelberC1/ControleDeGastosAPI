@@ -1,0 +1,82 @@
+﻿@page
+@model ControleDeGastosAPI.Pages.Pages.IndexModel
+@{
+    ViewData["Title"] = "Login";
+}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/css/login.css" />
+</head>
+<body>
+
+    <div class="container d-flex justify-content-center align-items-center" style="height: 100vh; color: black">
+        <div class="card p-4 shadow-sm" style="width: 100%; max-width: 400px; background-color: #EBD3F8">
+            <h3 class="text-center mb-4">Login</h3>
+
+            <form id="loginForm">
+                <div class="form-group mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" name="Email" required />
+                </div>
+
+                <div class="form-group mb-3">
+                    <label for="password" class="form-label">Senha</label>
+                    <input type="password" class="form-control" id="password" name="Password" required />
+                </div>
+
+                <button type="submit" class="btn btn-primary w-100">Entrar</button>
+            </form>
+
+            <div id="errorMessage" class="alert alert-danger mt-3" style="display: none;"></div>
+
+            <div class="text-center mt-3">
+                <a href="/Pages/Register" class="d-block text-decoration-none">Crie sua conta</a>
+                <a href="/ForgotPassword" class="d-block text-decoration-none">Esqueceu a senha?</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('loginForm').addEventListener('submit', async function (event) {
+            event.preventDefault();
+
+            const email = document.getElementById('email').value;
+            const password = document.getElementById('password').value;
+
+            if (!email || !password) {
+                document.getElementById('errorMessage').innerText = 'Email e senha são obrigatórios.';
+                document.getElementById('errorMessage').style.display = 'block';
+                return;
+            }
+
+            try {
+                const response = await fetch('/api/user/login', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify([email, password])
+                });
+
+                if (response.ok) {
+                    window.location.href = '/Home';
+                } else {
+                    const data = await response.json();
+                    document.getElementById('errorMessage').innerText = data.message;
+                    document.getElementById('errorMessage').style.display = 'block';
+                }
+            } catch (error) {
+                document.getElementById('errorMessage').innerText = 'Erro de conexão: ' + error.message;
+                document.getElementById('errorMessage').style.display = 'block';
+            }
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
