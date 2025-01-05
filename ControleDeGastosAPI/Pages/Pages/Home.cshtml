@@ -1,0 +1,72 @@
+﻿@page
+@model ControleDeGastosAPI.Pages.Pages.HomeModel
+@{
+    ViewData["Title"] = "Home";
+    var emailUsuario = "";
+}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/css/home.css" />
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark custom-navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand text-dark" href="#">Controle de Gastos</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon text-dark"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Pages/AddTransaction">Adicionar Transação</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Pages/SearchTransaction">Pesquisar Transações</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Pages/Dashboard">Dashboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Pages/Profile">Meu Perfil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Pages/About">Sobre</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-12 mb-4">
+                <div class="card bg-light shadow-sm">
+                    <div class="card-body text-center">
+                        <h4 id="userName">Bem-vindo, username</h4>
+                        <h3 id="userBalance">Saldo Atual: R$ 0,00</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h4>Histórico de Transações</h4>
+                        <ul class="list-group" id="transactionList">
+                            <li class="list-group-item text-center">Carregando transações...</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="~/js/home.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

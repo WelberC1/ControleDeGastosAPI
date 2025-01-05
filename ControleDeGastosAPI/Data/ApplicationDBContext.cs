@@ -41,6 +41,10 @@ namespace ControleDeGastosAPI.Data
                .ValueGeneratedOnAdd();
 
             modelBuilder.Entity<Transaction>()
+                .Property(t => t.IsVisible)
+                .HasDefaultValue(true);
+
+            modelBuilder.Entity<Transaction>()
                 .Property(t => t.Amount)
                 .HasColumnType("decimal(18,2)");
 

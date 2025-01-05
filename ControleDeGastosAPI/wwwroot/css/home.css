@@ -15,8 +15,18 @@ form {
     border: none;
 }
 
-
     .btn:hover {
         background-color: #347928;
         color: white;
     }
+
+.custom-navbar {
+    background-color: #00FF5F;
+    
+}
+
+.navbar-nav .nav-link {
+    color: black !important;
+}
+
+

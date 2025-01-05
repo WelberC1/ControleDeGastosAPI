@@ -11,6 +11,6 @@ namespace ControleDeGastosAPI.Models
         public DateTime Date { get; set; }
         public TransactionType TypeTransaction { get; set; }
         public TransactionCategory TransactionCategory { get; set; }
-        public bool IsVisible { get; set; }
+        public bool IsVisible { get; set; } = true;
     }
 }

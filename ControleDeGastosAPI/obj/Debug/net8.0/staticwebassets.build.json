@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "r4uJwHWd//ql48KN5/QLKrvImdKgkc1i26APxCu5tjk=",
+  "Hash": "QFvv3dM1t1jaxEcdfjWd+xLvPteHLfMYd9Uy+Vx50IY=",
   "Source": "ControleDeGastosAPI",
   "BasePath": "_content/ControleDeGastosAPI",
   "Mode": "Default",
@@ -16,6 +16,25 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\oximl\\source\\repos\\ControleDeGastosAPI\\ControleDeGastosAPI\\wwwroot\\css\\home.css",
+      "SourceId": "ControleDeGastosAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\oximl\\source\\repos\\ControleDeGastosAPI\\ControleDeGastosAPI\\wwwroot\\",
+      "BasePath": "_content/ControleDeGastosAPI",
+      "RelativePath": "css/home.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\home.css"
+    },
     {
       "Identity": "C:\\Users\\oximl\\source\\repos\\ControleDeGastosAPI\\ControleDeGastosAPI\\wwwroot\\css\\login.css",
       "SourceId": "ControleDeGastosAPI",
@@ -53,6 +72,63 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\register.css"
+    },
+    {
+      "Identity": "C:\\Users\\oximl\\source\\repos\\ControleDeGastosAPI\\ControleDeGastosAPI\\wwwroot\\js\\home.js",
+      "SourceId": "ControleDeGastosAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\oximl\\source\\repos\\ControleDeGastosAPI\\ControleDeGastosAPI\\wwwroot\\",
+      "BasePath": "_content/ControleDeGastosAPI",
+      "RelativePath": "js/home.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\home.js"
+    },
+    {
+      "Identity": "C:\\Users\\oximl\\source\\repos\\ControleDeGastosAPI\\ControleDeGastosAPI\\wwwroot\\js\\login.js",
+      "SourceId": "ControleDeGastosAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\oximl\\source\\repos\\ControleDeGastosAPI\\ControleDeGastosAPI\\wwwroot\\",
+      "BasePath": "_content/ControleDeGastosAPI",
+      "RelativePath": "js/login.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\login.js"
+    },
+    {
+      "Identity": "C:\\Users\\oximl\\source\\repos\\ControleDeGastosAPI\\ControleDeGastosAPI\\wwwroot\\js\\register.js",
+      "SourceId": "ControleDeGastosAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\oximl\\source\\repos\\ControleDeGastosAPI\\ControleDeGastosAPI\\wwwroot\\",
+      "BasePath": "_content/ControleDeGastosAPI",
+      "RelativePath": "js/register.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\register.js"
     }
   ]
 }

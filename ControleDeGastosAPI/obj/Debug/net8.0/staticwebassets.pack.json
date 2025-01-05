@@ -1,12 +1,28 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\oximl\\source\\repos\\ControleDeGastosAPI\\ControleDeGastosAPI\\wwwroot\\css\\home.css",
+      "PackagePath": "staticwebassets\\css\\home.css"
+    },
+    {
       "Id": "C:\\Users\\oximl\\source\\repos\\ControleDeGastosAPI\\ControleDeGastosAPI\\wwwroot\\css\\login.css",
       "PackagePath": "staticwebassets\\css\\login.css"
     },
     {
       "Id": "C:\\Users\\oximl\\source\\repos\\ControleDeGastosAPI\\ControleDeGastosAPI\\wwwroot\\css\\register.css",
       "PackagePath": "staticwebassets\\css\\register.css"
+    },
+    {
+      "Id": "C:\\Users\\oximl\\source\\repos\\ControleDeGastosAPI\\ControleDeGastosAPI\\wwwroot\\js\\home.js",
+      "PackagePath": "staticwebassets\\js\\home.js"
+    },
+    {
+      "Id": "C:\\Users\\oximl\\source\\repos\\ControleDeGastosAPI\\ControleDeGastosAPI\\wwwroot\\js\\login.js",
+      "PackagePath": "staticwebassets\\js\\login.js"
+    },
+    {
+      "Id": "C:\\Users\\oximl\\source\\repos\\ControleDeGastosAPI\\ControleDeGastosAPI\\wwwroot\\js\\register.js",
+      "PackagePath": "staticwebassets\\js\\register.js"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ControleDeGastosAPI.Microsoft.AspNetCore.StaticWebAssets.props",
