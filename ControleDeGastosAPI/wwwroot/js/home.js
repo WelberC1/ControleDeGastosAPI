@@ -11,6 +11,9 @@ document.addEventListener('DOMContentLoaded', async function () {
         if (responseUser.ok) {
             const user = await responseUser.json();
 
+            sessionStorage.setItem('userUUID', user.uuid);
+            console.log(sessionStorage.getItem("userUUID"))
+
             document.getElementById('userName').innerText = `Bem-vindo (a), ${user.name}`;
             document.getElementById('userBalance').innerText = `Saldo Atual: R$ ${user.balance.toFixed(2)}`;
 

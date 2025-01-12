@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "QFvv3dM1t1jaxEcdfjWd+xLvPteHLfMYd9Uy+Vx50IY=",
+  "Hash": "pyVJwGz9t0KN0TehVOBXvZGHE8YfJX+qlN5SkiMCSsc=",
   "Source": "ControleDeGastosAPI",
   "BasePath": "_content/ControleDeGastosAPI",
   "Mode": "Default",
@@ -72,6 +72,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\register.css"
+    },
+    {
+      "Identity": "C:\\Users\\oximl\\source\\repos\\ControleDeGastosAPI\\ControleDeGastosAPI\\wwwroot\\js\\addTransaction.js",
+      "SourceId": "ControleDeGastosAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\oximl\\source\\repos\\ControleDeGastosAPI\\ControleDeGastosAPI\\wwwroot\\",
+      "BasePath": "_content/ControleDeGastosAPI",
+      "RelativePath": "js/addTransaction.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\addTransaction.js"
     },
     {
       "Identity": "C:\\Users\\oximl\\source\\repos\\ControleDeGastosAPI\\ControleDeGastosAPI\\wwwroot\\js\\home.js",

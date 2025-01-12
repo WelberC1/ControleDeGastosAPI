@@ -26,6 +26,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\oximl\source\repos\ControleDeGastosAPI\ControleDeGastosAPI
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/oximl/source/repos/ControleDeGastosAPI/ControleDeGastosAPI/Pages/Pages/AddTransaction.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcQWRkVHJhbnNhY3Rpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/oximl/source/repos/ControleDeGastosAPI/ControleDeGastosAPI/Pages/Pages/Home.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcSG9tZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
